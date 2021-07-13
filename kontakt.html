@@ -28,7 +28,7 @@
 
         <nav>
             <ul>
-                <li class="nav__current">
+                <li>
                     <a href="index.html">Home</a>
                 </li>
 
@@ -40,7 +40,7 @@
                     <a href="team.html">Team</a>
                 </li>
 
-                <li>
+                <li class="nav__current">
                     <a href="kontakt.html">Kontakt</a>
                 </li>
             </ul>
@@ -50,14 +50,20 @@
 
     </header>
     <main>
-        <h1>Arizona</h1>
+        <h1>Kontakt</h1>
         <hr>
-        <video controls loop>
-            <source src="vid/vid.mp4" type="video/mp4">
-        </video>
-        <p class="r">Logoanimation</p>
+        <form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Deine E-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Dein Text</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn-btn-primary">Senden</button>
+        </form>
     </main>
-
     <footer>
         <p>Designed by Jan Herter and Sujan Gurung</p>
     </footer>
