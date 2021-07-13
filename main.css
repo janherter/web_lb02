@@ -63,8 +63,14 @@ h4 {
   font-weight: 700;
 }
 
-
-
+.card
+{
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ 
+}
 
 
 
